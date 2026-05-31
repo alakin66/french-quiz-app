@@ -1,0 +1,760 @@
+{
+  "Les Pronoms": {
+    "_description": "Les pronoms en français",
+    "_intro": "<table class=\"xlsx-table intro-table\">\n<colgroup>\n  <col style=\"width:33.33%\">\n  <col style=\"width:33.33%\">\n  <col style=\"width:33.34%\">\n<col class=\"action-col\" style=\"width: 52px;\"></colgroup>\n<tbody>\n  <tr class=\"title-row\"><th>Les pronoms personnels</th><td colspan=\"2\">Les types de pronoms personnels et leurs accords.</td></tr>\n  <tr class=\"blank-row\"><td colspan=\"3\">&nbsp;</td></tr>\n  <tr class=\"focus-point\"><th>Définition</th><td colspan=\"2\">Un pronom est un mot qui <b>remplace</b> un <b>nom</b> <b>ou</b> un <b>groupe nominal</b>.</td></tr>\n  <tr class=\"blank-row\"><td colspan=\"3\">&nbsp;</td></tr>\n  <tr class=\"focus-point\"><th>Place </th><td colspan=\"2\">Ordre général : <b>Sujet</b> + (ne) + <span style=\"color:#F79646;\"><b>Pronom(s)</b></span> + <b>Verbe</b>. \nAvec un infinitif : <b>Sujet</b> + (ne) + <b>verbe</b> + (pas) + <span style=\"color:#F79646;\"><b>Pronom(s)</b></span><b> </b>+ infinitif.</td></tr>\n  <tr class=\"blank-row\"><td colspan=\"3\">&nbsp;</td></tr>\n  <tr class=\"focus-point\"><th>Exemple</th><td colspan=\"2\">Nous ne <span style=\"color:#548DD4;\"><b>le</b></span><b> </b><span style=\"color:#FF0000;\"><b>lui</b></span> donnons pas.</td></tr>\n  <tr class=\"blank-row\"><td colspan=\"3\">&nbsp;</td></tr>\n  <tr class=\"explanation\"><td></td><td><i>Explication</i></td><td><i>Exemple</i></td></tr>\n  <tr class=\"section-header\"><td colspan=\"3\">A. Les pronoms sujets</td></tr>\n  <tr class=\"explanation\"><td>je, tu, il/elle/on, nous, vous, ils/elles</td><td>Font l'action. Sont placés devant le verbe.</td><td><b>Tu</b> étudies le français.</td></tr>\n  <tr class=\"section-header\"><td colspan=\"3\">B. Les pronoms toniques</td></tr>\n  <tr class=\"explanation\"><td>moi, toi, lui/elle, nous, vous, eux/elles</td><td>On les utilise pour insister, après \"c'est\", ou après une préposition (avec, pour, chez, sans, ...).</td><td>Viens chez <b>moi</b> ce soir !</td></tr>\n  <tr class=\"section-header\"><td colspan=\"3\">C. Les pronoms COD (Complément d'Objet Direct)</td></tr>\n  <tr class=\"explanation\"><td>me, te, <b>le/la/l'</b>, nous, vous, <b>les</b></td><td>Remplace un complément <span style=\"color:#548DD4;\">(COD)</span> quand il n'y a pas de préposition après le verbe. Répond à : quoi ? qui ?</td><td>Tu lis <u>ce livre</u> ? → Oui, je<b> </b><span style=\"color:#548DD4;\"><b>le</b></span> lis.</td></tr>\n  <tr class=\"section-header\"><td colspan=\"3\">D. Les pronoms COI (Complément d'Objet Indirect)</td></tr>\n  <tr class=\"explanation\"><td>me, te, <b>lui</b>, nous, vous, <b>leur</b></td><td>Remplace un complément introduit par \"à\" <span style=\"color:#FF0000;\">(COI)</span>, souvent une personne. Répond à : à qui ? </td><td>Tu parles <u>à Marie</u><b> </b>? → Je <span style=\"color:#FF0000;\"><b>lui</b></span> parle.</td></tr>\n  <tr class=\"section-header\"><td colspan=\"3\">E. Les pronoms adverbiaux</td></tr>\n  <tr class=\"explanation\"><td>Y</td><td>Remplace un <b>lieu</b> (préposition <i>à, en, dans, sur, …</i>)</td><td>Tu vas <b>à Lausanne</b> ? → J'<span style=\"color:#00B050;\"><b>y</b></span><b> </b>vais.</td></tr>\n  <tr class=\"explanation\"><td>EN</td><td>Remplace une quantité ou un objet introduit pas \"<b>de</b>\"</td><td>Tu veux du café ? → Oui, j'<span style=\"color:#00B050;\">en</span> veux.</td></tr>\n  <tr class=\"blank-row\"><td colspan=\"3\">&nbsp;</td></tr>\n  <tr class=\"focus-point\"><th>Ordre des pronoms</th><td colspan=\"2\">me/te/se/nous/vous → le/la/les → lui/leur → y → en</td></tr>\n  <tr class=\"blank-row\"><td colspan=\"3\">&nbsp;</td></tr>\n  <tr class=\"focus-point\"><th>Conseil</th><td colspan=\"2\">Pour savoir s'il faut utiliser <span style=\"color:#548DD4;\"><b>le/la</b></span> ou <span style=\"color:#FF0000;\"><b>lui</b></span>, regarde toujours le verbe. Est-ce qu'on dit \"appeler <span style=\"color:#548DD4;\">quelqu'un</span>\" <span style=\"color:#548DD4;\">(COD)</span> ou \"parler <span style=\"color:#FF0000;\"><b>à</b></span><span style=\"color:#FF0000;\"> quelqu'un</span>\" <span style=\"color:#FF0000;\">(COI)</span> ?</td></tr>\n</tbody>\n</table>",
+    "Pronoms COD & COI - A2": [
+      {
+        "Type": "MultipleChoice",
+        "Question": "Tu vois Marie tous les jours ? → Oui, je ___ vois tous les jours.",
+        "Options": "le, la, les, lui",
+        "Answer": "la",
+        "FeedbackCorrect": "Bravo ! Marie est féminin singulier → COD = la.",
+        "FeedbackIncorrect": "Faux. Marie (féminin singulier) est COD du verbe voir → 'la'."
+      },
+      {
+        "Type": "FillInBlank",
+        "Question": "Il mange les pommes. → Il ___ mange.",
+        "Options": "",
+        "Answer": "les",
+        "FeedbackCorrect": "Correct ! 'les pommes' (pluriel) = COD → les.",
+        "FeedbackIncorrect": "Non. 'Les pommes' est un COD pluriel → pronom 'les'."
+      },
+      {
+        "Type": "TrueFalse",
+        "Question": "Le pronom COD 'le' peut remplacer un nom féminin singulier.",
+        "Options": "Vrai, Faux",
+        "Answer": "Faux",
+        "FeedbackCorrect": "Exact ! Pour féminin singulier on utilise 'la', pas 'le'.",
+        "FeedbackIncorrect": "Faux ! 'le' est masculin singulier. Le féminin singulier → 'la'."
+      },
+      {
+        "Type": "MultipleChoice",
+        "Question": "Tu parles à ton professeur ? → Oui, je ___ parle souvent.",
+        "Options": "le, la, lui, y",
+        "Answer": "lui",
+        "FeedbackCorrect": "Parfait ! 'parler à + personne' → COI = lui.",
+        "FeedbackIncorrect": "Faux. 'Parler à' + personne → COI. Masculin ou féminin singulier = 'lui'."
+      },
+      {
+        "Type": "FillInBlank",
+        "Question": "Tu téléphones à tes parents ? → Oui, je ___ téléphone.",
+        "Options": "",
+        "Answer": "leur",
+        "FeedbackCorrect": "Bravo ! 'à tes parents' (pluriel, personnes) → COI = leur.",
+        "FeedbackIncorrect": "Non. 'Téléphoner à' + personnes (pluriel) → 'leur'."
+      },
+      {
+        "Type": "OddOneOut",
+        "Question": "Quel pronom n'est PAS un pronom COD ?",
+        "Options": "le, la, les, lui",
+        "Answer": "lui",
+        "FeedbackCorrect": "Correct ! 'lui' est un pronom COI (à + personne).",
+        "FeedbackIncorrect": "Raté ! 'lui' est un pronom COI, pas COD."
+      },
+      {
+        "Type": "MultipleChoice",
+        "Question": "J'aime beaucoup ce film. → Je ___ aime beaucoup.",
+        "Options": "le, la, lui, leur",
+        "Answer": "le",
+        "FeedbackCorrect": "Correct ! 'ce film' (masculin singulier, COD) → le.",
+        "FeedbackIncorrect": "Faux. 'Ce film' = masculin singulier, COD → 'le'."
+      },
+      {
+        "Type": "FillInBlank",
+        "Question": "Tu écris à ta sœur ? → Oui, je ___ écris une lettre.",
+        "Options": "",
+        "Answer": "lui",
+        "FeedbackCorrect": "Bien ! 'écrire à + personne singulière' → COI = lui.",
+        "FeedbackIncorrect": "Incorrect. 'Écrire à + personne singulière' → 'lui'."
+      },
+      {
+        "Type": "TrueFalse",
+        "Question": "Le pronom COI 'leur' s'utilise pour des personnes au pluriel.",
+        "Options": "Vrai, Faux",
+        "Answer": "Vrai",
+        "FeedbackCorrect": "Exact ! Ex. : Je leur envoie un message (à mes amis).",
+        "FeedbackIncorrect": "C'est vrai ! 'leur' = COI pluriel (personnes)."
+      },
+      {
+        "Type": "MultipleChoice",
+        "Question": "Tu regardes la télévision ? → Non, je ne ___ regarde pas.",
+        "Options": "le, la, les, lui",
+        "Answer": "la",
+        "FeedbackCorrect": "Très bien ! 'la télévision' (féminin, COD) → la.",
+        "FeedbackIncorrect": "Faux. 'La télévision' est féminin singulier → COD 'la'."
+      },
+      {
+        "Type": "FillInBlank",
+        "Question": "Nous invitons nos voisins. → Nous ___ invitons.",
+        "Options": "",
+        "Answer": "les",
+        "FeedbackCorrect": "Correct ! 'nos voisins' = COD pluriel → les.",
+        "FeedbackIncorrect": "Non. 'Nos voisins' est un COD pluriel → 'les'."
+      },
+      {
+        "Type": "MultipleChoice",
+        "Question": "Elle répond à ses collègues. → Elle ___ répond rapidement.",
+        "Options": "les, leur, lui, y",
+        "Answer": "leur",
+        "FeedbackCorrect": "Bravo ! 'répondre à + personnes (pluriel)' → leur.",
+        "FeedbackIncorrect": "Faux. 'Répondre à' + personnes au pluriel → 'leur'."
+      },
+      {
+        "Type": "TrueFalse",
+        "Question": "On peut utiliser 'lui' et 'leur' pour remplacer des objets inanimés.",
+        "Options": "Vrai, Faux",
+        "Answer": "Faux",
+        "FeedbackCorrect": "Exact ! 'lui/leur' ne remplacent que des personnes en COI.",
+        "FeedbackIncorrect": "Faux ! Pour des choses on utilise 'y' (à + chose) ou 'en' (de + chose)."
+      },
+      {
+        "Type": "FillInBlank",
+        "Question": "Tu connais ce chanteur ? → Oui, je ___ connais bien.",
+        "Options": "",
+        "Answer": "le",
+        "FeedbackCorrect": "Bien joué ! 'ce chanteur' (masculin, COD) → le.",
+        "FeedbackIncorrect": "Non. 'Ce chanteur' est masculin singulier → COD 'le'."
+      },
+      {
+        "Type": "MultipleChoice",
+        "Question": "Tu donnes un cadeau à Marie et à Luc ? → Oui, je ___ donne un cadeau.",
+        "Options": "lui, leur, les, y",
+        "Answer": "leur",
+        "FeedbackCorrect": "Parfait ! Deux personnes → COI pluriel = leur.",
+        "FeedbackIncorrect": "Faux. Marie ET Luc = plusieurs personnes → 'leur'."
+      }
+    ],
+    "Pronoms Y & EN - B1": [
+      {
+        "Type": "MultipleChoice",
+        "Question": "Tu vas à la salle de sport ? → Oui, j'___ vais trois fois par semaine.",
+        "Options": "y, en, le, lui",
+        "Answer": "y",
+        "FeedbackCorrect": "Correct ! Y remplace 'à + lieu' (la salle de sport).",
+        "FeedbackIncorrect": "Faux. 'À la salle de sport' est un lieu → pronom Y."
+      },
+      {
+        "Type": "FillInBlank",
+        "Question": "Tu veux du pain ? → Oui, j'___ veux, merci.",
+        "Options": "",
+        "Answer": "en",
+        "FeedbackCorrect": "Bravo ! 'du pain' = quantité indéfinie → EN.",
+        "FeedbackIncorrect": "Non. 'Du pain' est une quantité → pronom EN."
+      },
+      {
+        "Type": "TrueFalse",
+        "Question": "Le pronom Y peut remplacer une personne introduite par 'à'.",
+        "Options": "Vrai, Faux",
+        "Answer": "Faux",
+        "FeedbackCorrect": "Exact ! Y ne remplace PAS une personne → on utilise lui/leur.",
+        "FeedbackIncorrect": "Faux ! Pour une personne (à + personne) on dit 'lui' ou 'leur', pas 'y'."
+      },
+      {
+        "Type": "MultipleChoice",
+        "Question": "Il pense à ses vacances. → Il ___ pense tout le temps.",
+        "Options": "y, en, lui, les",
+        "Answer": "y",
+        "FeedbackCorrect": "Bien ! 'Penser à + chose' → Y.",
+        "FeedbackIncorrect": "Faux. 'Penser à' + chose (vacances) → Y."
+      },
+      {
+        "Type": "FillInBlank",
+        "Question": "Vous avez des enfants ? → Oui, nous ___ avons deux.",
+        "Options": "",
+        "Answer": "en",
+        "FeedbackCorrect": "Parfait ! 'des enfants' avec quantité → EN.",
+        "FeedbackIncorrect": "Non. La quantité (deux) indique qu'il faut EN."
+      },
+      {
+        "Type": "OddOneOut",
+        "Question": "Quelle phrase utilise Y pour remplacer un lieu ?",
+        "Options": "J'y pense souvent. / Il y mange. / Nous y habitons. / Elle y répond.",
+        "Answer": "Il y mange. / Nous y habitons.",
+        "FeedbackCorrect": "Exact ! Y remplace un lieu dans 'Il y mange' (au restaurant) et 'Nous y habitons'.",
+        "FeedbackIncorrect": "Regardez bien : Y remplace un lieu (à + endroit) ou une chose (à + chose)."
+      },
+      {
+        "Type": "MultipleChoice",
+        "Question": "Tu reviens de Paris ? → Oui, j'___ reviens ce soir.",
+        "Options": "y, en, le, là",
+        "Answer": "en",
+        "FeedbackCorrect": "Très bien ! 'Revenir de + lieu' → EN.",
+        "FeedbackIncorrect": "Faux. 'Revenir de + lieu' → EN (pas Y qui suit 'à')."
+      },
+      {
+        "Type": "FillInBlank",
+        "Question": "Elle a besoin de repos. → Elle ___ a besoin.",
+        "Options": "",
+        "Answer": "en",
+        "FeedbackCorrect": "Correct ! 'Avoir besoin de + chose' → EN.",
+        "FeedbackIncorrect": "Non. 'Avoir besoin de' + chose → EN."
+      },
+      {
+        "Type": "TrueFalse",
+        "Question": "Dans 'Il en parle', EN remplace un complément introduit par 'de'.",
+        "Options": "Vrai, Faux",
+        "Answer": "Vrai",
+        "FeedbackCorrect": "Exact ! 'Parler de quelque chose' → EN.",
+        "FeedbackIncorrect": "C'est vrai ! 'Parler de' → EN remplace 'de + chose'."
+      },
+      {
+        "Type": "MultipleChoice",
+        "Question": "Tu t'intéresses à la musique ? → Oui, je m'___ intéresse beaucoup.",
+        "Options": "y, en, lui, la",
+        "Answer": "y",
+        "FeedbackCorrect": "Bravo ! 'S'intéresser à + chose' → Y.",
+        "FeedbackIncorrect": "Faux. 'S'intéresser à + chose' → Y."
+      },
+      {
+        "Type": "FillInBlank",
+        "Question": "Tu as acheté des tomates ? → J'___ ai acheté un kilo.",
+        "Options": "",
+        "Answer": "en",
+        "FeedbackCorrect": "Bien ! 'des tomates' + quantité (un kilo) → EN.",
+        "FeedbackIncorrect": "Non. 'Des tomates' avec une quantité → EN."
+      },
+      {
+        "Type": "MultipleChoice",
+        "Question": "Vous habitez à Lyon ? → Non, nous n'___ habitons plus.",
+        "Options": "y, en, là, lui",
+        "Answer": "y",
+        "FeedbackCorrect": "Correct ! 'Habiter à + ville' → Y.",
+        "FeedbackIncorrect": "Faux. 'Habiter à Lyon' (lieu) → Y."
+      },
+      {
+        "Type": "TrueFalse",
+        "Question": "EN peut remplacer une quantité comme 'beaucoup de' ou 'plusieurs'.",
+        "Options": "Vrai, Faux",
+        "Answer": "Vrai",
+        "FeedbackCorrect": "Exact ! Ex. : Tu lis beaucoup de livres ? → Oui, j'en lis beaucoup.",
+        "FeedbackIncorrect": "C'est vrai ! EN remplace 'de + nom' et les expressions de quantité."
+      },
+      {
+        "Type": "FillInBlank",
+        "Question": "Il rêve de voyager au Japon. → Il ___ rêve depuis longtemps.",
+        "Options": "",
+        "Answer": "en",
+        "FeedbackCorrect": "Excellent ! 'Rêver de + chose' → EN.",
+        "FeedbackIncorrect": "Non. 'Rêver de + chose' → EN."
+      },
+      {
+        "Type": "MultipleChoice",
+        "Question": "Tu vas au marché ? → Non, je n'___ vais pas aujourd'hui.",
+        "Options": "y, en, le, là",
+        "Answer": "y",
+        "FeedbackCorrect": "Parfait ! 'Au marché' est un lieu → Y.",
+        "FeedbackIncorrect": "Faux. 'Au marché' est un lieu → pronom Y."
+      }
+    ],
+    "Pronoms Mixte & Ordre - B2": [
+      {
+        "Type": "MultipleChoice",
+        "Question": "Je vais envoyer ce rapport à mes collègues. → Je vais ___ ___ envoyer.",
+        "Options": "le leur, leur le, les leur, le y",
+        "Answer": "le leur",
+        "FeedbackCorrect": "Bravo ! COD 'le' vient avant COI 'leur'. Ordre : COD → COI.",
+        "FeedbackIncorrect": "Faux. COD (le) se place avant COI (leur) : 'je vais le leur envoyer'."
+      },
+      {
+        "Type": "FillInBlank",
+        "Question": "Tu m'as rendu les clés ? → Oui, je ___ ___ ai rendues.",
+        "Options": "",
+        "Answer": "te les",
+        "FeedbackCorrect": "Parfait ! Ordre : me/te avant le/la/les. 'je te les ai rendues'.",
+        "FeedbackIncorrect": "Ordre correct : pronom personnel (te) → COD (les). Réponse : te les."
+      },
+      {
+        "Type": "TrueFalse",
+        "Question": "Dans 'Je les lui donne', LUI est un pronom COD.",
+        "Options": "Vrai, Faux",
+        "Answer": "Faux",
+        "FeedbackCorrect": "Exact ! 'lui' est COI. 'les' est le COD.",
+        "FeedbackIncorrect": "Faux ! 'lui' = COI. Dans cet ordre, COD (les) précède COI (lui)."
+      },
+      {
+        "Type": "MultipleChoice",
+        "Question": "Elle a parlé de ce projet à son chef. → Elle ___ ___ a parlé.",
+        "Options": "lui en, en lui, y lui, le lui",
+        "Answer": "lui en",
+        "FeedbackCorrect": "Excellent ! COI 'lui' (à son chef) + EN (de ce projet). Ordre : lui → en.",
+        "FeedbackIncorrect": "Faux. 'Parler de' → EN ; 'à son chef' → lui. Ordre : lui en."
+      },
+      {
+        "Type": "FillInBlank",
+        "Question": "Il m'a conseillé d'aller à cette conférence. → Il m'a conseillé d'___ aller.",
+        "Options": "",
+        "Answer": "y",
+        "FeedbackCorrect": "Correct ! 'Aller à + lieu' → Y.",
+        "FeedbackIncorrect": "Non. 'À cette conférence' (lieu) → Y."
+      },
+      {
+        "Type": "MultipleChoice",
+        "Question": "Donnez ces formulaires aux étudiants ! → ___ ___ donnez ! (impératif affirmatif)",
+        "Options": "Donnez-les-leur, Donnez-leur-les, Les donnez-leur, Les leur donnez",
+        "Answer": "Donnez-les-leur",
+        "FeedbackCorrect": "Bravo ! À l'impératif affirmatif : verbe + COD + COI avec tirets.",
+        "FeedbackIncorrect": "Faux. Impératif affirmatif : verbe-COD-COI → 'Donnez-les-leur'."
+      },
+      {
+        "Type": "TrueFalse",
+        "Question": "À l'impératif négatif, les pronoms se placent après le verbe.",
+        "Options": "Vrai, Faux",
+        "Answer": "Faux",
+        "FeedbackCorrect": "Exact ! À l'impératif négatif, les pronoms restent avant le verbe : Ne les lui donne pas.",
+        "FeedbackIncorrect": "Faux ! Impératif négatif → pronoms AVANT le verbe. Ex. : Ne les lui donne pas."
+      },
+      {
+        "Type": "FillInBlank",
+        "Question": "Il se souvient de son enfance. → Il ___ souvient souvent.",
+        "Options": "",
+        "Answer": "s'en",
+        "FeedbackCorrect": "Parfait ! 'Se souvenir de + chose' → s'en (pronom réfléchi + EN).",
+        "FeedbackIncorrect": "Non. 'Se souvenir de' + chose → 's'en' (s' + en)."
+      },
+      {
+        "Type": "MultipleChoice",
+        "Question": "Le directeur s'oppose à cette décision. → Il ___ oppose fermement.",
+        "Options": "s'y, s'en, lui, y",
+        "Answer": "s'y",
+        "FeedbackCorrect": "Exact ! 'S'opposer à + chose' → s'y (pronom réfléchi + Y).",
+        "FeedbackIncorrect": "Faux. 'S'opposer à + chose' → s'y."
+      },
+      {
+        "Type": "FillInBlank",
+        "Question": "Je me doute de quelque chose. → Je m'___ doute.",
+        "Options": "",
+        "Answer": "en",
+        "FeedbackCorrect": "Bravo ! 'Se douter de + chose' → EN.",
+        "FeedbackIncorrect": "Non. 'Se douter de' → EN."
+      },
+      {
+        "Type": "MultipleChoice",
+        "Question": "Ne donne pas ces médicaments aux enfants ! → Ne ___ ___ donne pas ! (impératif négatif)",
+        "Options": "les leur, leur les, les y, y les",
+        "Answer": "les leur",
+        "FeedbackCorrect": "Parfait ! Impératif négatif : ne + COD + COI + verbe + pas.",
+        "FeedbackIncorrect": "Faux. Négatif : ne les leur donne pas (même ordre qu'à l'indicatif)."
+      },
+      {
+        "Type": "TrueFalse",
+        "Question": "Dans 'Il y en a beaucoup', Y et EN peuvent coexister dans la même phrase.",
+        "Options": "Vrai, Faux",
+        "Answer": "Vrai",
+        "FeedbackCorrect": "Exact ! 'Il y en a' est une expression idiomatique très courante.",
+        "FeedbackIncorrect": "C'est vrai ! 'Il y en a' est une combinaison figée (y + en devant avoir)."
+      },
+      {
+        "Type": "FillInBlank",
+        "Question": "Dis-moi la vérité ! → Dis-___ ! (impératif affirmatif, 'à moi')",
+        "Options": "",
+        "Answer": "la-moi",
+        "FeedbackCorrect": "Bravo ! Impératif affirmatif : verbe + COD (la) + COI (moi).",
+        "FeedbackIncorrect": "Non. Impératif affirmatif : verbe-COD-COI. COD = la, COI = moi → 'Dis-la-moi'."
+      },
+      {
+        "Type": "MultipleChoice",
+        "Question": "Le directeur a présenté ce plan à l'équipe. → Il ___ ___ a présenté.",
+        "Options": "le lui, lui le, le y, en lui",
+        "Answer": "le lui",
+        "FeedbackCorrect": "Correct ! COD (le) avant COI (lui). Ordre : le lui.",
+        "FeedbackIncorrect": "Faux. L'ordre est toujours COD avant COI : 'le lui'."
+      },
+      {
+        "Type": "OddOneOut",
+        "Question": "Quelle phrase contient une ERREUR dans l'ordre des pronoms ?",
+        "Options": "Je le lui ai dit. / Je lui le dirai. / Je te les envoie. / Je leur en parle.",
+        "Answer": "Je lui le dirai.",
+        "FeedbackCorrect": "Bien vu ! L'ordre correct est COD avant COI → 'Je le lui dirai'.",
+        "FeedbackIncorrect": "Faux ! 'Je lui le dirai' est incorrect. L'ordre doit être : COD (le) avant COI (lui) → 'Je le lui dirai'."
+      }
+    ]
+  },
+  "Les verbes transitifs": {
+    "_description": "Les verbes transitifs en français",
+    "_intro": "<table class=\"xlsx-table intro-table\">\n<colgroup>\n  <col style=\"width:33.33%\">\n  <col style=\"width:33.33%\">\n  <col style=\"width:33.34%\">\n<col class=\"action-col\" style=\"width: 52px;\"></colgroup>\n<tbody>\n  \n  \n  <tr class=\"focus-point\"><th>Qu'est-ce qu'un verbe transitif ?</th><td colspan=\"2\">Un verbe transitif est un verbe qui a besoin d'un <font color=\"#942192\">complément d'objet </font>pour compléter son sens.<br>On distingue deux catégories : les verbes transitifs DIRECTS et les verbes transitifs INDIRECTS.</td></tr>\n  <tr class=\"blank-row\"><td colspan=\"3\">&nbsp;</td></tr>\n  <tr class=\"explanation\"><td></td><td><i>Construction</i></td><td><i>Exemple</i></td></tr>\n  <tr class=\"section-header\"><td colspan=\"3\">Transitif Direct (COD)</td></tr>\n  <tr class=\"explanation\"><td>Verbe + complément direct</td><td>Le verbe se construit SANS préposition avant son complément.</td><td>Je mange <b>une pomme</b>. / Il lit <b>un livre.</b></td></tr>\n  <tr class=\"explanation\"><td>Transitif Indirect (COI)</td><td>Le verbe se construit AVEC une préposition (à, de) avant son complément.</td><td>Verbe + à/de + complément</td></tr>\n  <tr class=\"blank-row\"><td colspan=\"3\">&nbsp;</td></tr>\n  <tr class=\"section-header\"><td colspan=\"3\">Pronoms de remplacement</td></tr>\n  <tr class=\"explanation\"><td>Pour le COD</td><td><span style=\"color:rgb(0, 0, 0)\">On l'utilise quand le verbe se construit&nbsp;</span><b>sans préposition</b>: le, la, l', les</td><td>Je regarde&nbsp;<b>le film</b>.&nbsp;→&nbsp;Je&nbsp;<b>le</b>&nbsp;regarde.<br><span style=\"color:rgb(0, 0, 0)\">Tu aimes&nbsp;</span><b>ces fleurs</b><span style=\"color:rgb(0, 0, 0)\">&nbsp;? → Oui, je&nbsp;</span><b>les</b><span style=\"color:rgb(0, 0, 0)\">&nbsp;aime.</span><br></td></tr>\n  <tr class=\"explanation\"><td>Pour le COI avec 'à' (personne)</td><td><span style=\"color:rgb(0, 0, 0)\">On l'utilise pour les verbes de communication ou de don</span>&nbsp;: lui, leur</td><td>Je téléphone&nbsp;<b>à ma mère</b>.&nbsp;→&nbsp;Je&nbsp;<b>lui</b>&nbsp;téléphone.<br><span style=\"color:rgb(0, 0, 0)\">J'écris&nbsp;</span><b>aux clients</b><span style=\"color:rgb(0, 0, 0)\">. → Je&nbsp;</span><b>leur</b><span style=\"color:rgb(0, 0, 0)\">&nbsp;écris.</span><br></td></tr>\n  <tr class=\"explanation\"><td>Pour le COI avec 'à' (chose)</td><td><span style=\"color:rgb(0, 0, 0)\">Le pronom&nbsp;</span><b>y</b><span style=\"color:rgb(0, 0, 0)\">&nbsp;remplace généralement une idée, une chose ou un endroit introduit par <b>à.</b></span></td><td>Je pense&nbsp;<b>à mon avenir</b>.&nbsp;→&nbsp;J’<b>y</b>&nbsp;pense.<br><span style=\"color:rgb(0, 0, 0)\">Elle va&nbsp;</span><b>à Paris</b><span style=\"color:rgb(0, 0, 0)\">. → Elle&nbsp;</span><b>y</b><span style=\"color:rgb(0, 0, 0)\">&nbsp;va.</span><br></td></tr>\n  <tr class=\"explanation\"><td>Pour le COI avec 'de'</td><td><span style=\"color:rgb(0, 0, 0)\">Le pronom&nbsp;</span><b>en</b><span style=\"color:rgb(0, 0, 0)\">&nbsp;remplace un nom introduit par « de ». Il est très fréquent pour exprimer une quantité.</span><br></td><td>Tu veux&nbsp;<b>du café</b>&nbsp;?&nbsp;→&nbsp;Oui, j'<b>en</b>&nbsp;veux.<br><span style=\"color:rgb(0, 0, 0)\">Il parle souvent&nbsp;</span><b>de son travail</b><span style=\"color:rgb(0, 0, 0)\">. → Il&nbsp;</span><b>en</b><span style=\"color:rgb(0, 0, 0)\">&nbsp;parle souvent.</span><br></td></tr>\n  <tr class=\"blank-row\"><td colspan=\"3\">&nbsp;</td></tr>\n  <tr class=\"focus-point\"><th>Conseil</th><td colspan=\"2\">Posez la question 'Qui ?' ou 'Quoi ?' directement après le verbe → COD (sans préposition). Si vous avez besoin de 'à qui ?' ou 'de quoi ?' → COI (avec préposition).</td></tr><tr class=\"focus-point\"><th><b>Note importante</b><span style=\"color:rgb(0, 0, 0)\"></span></th><td colspan=\"2\"><font color=\"#7b219f\">Attention à l'ordre ! Si vous utilisez deux pronoms (ex: \"Je le lui donne\"), le COD se place généralement avant le COI.</font></td></tr>\n</tbody>\n</table>",
+    "Transitifs Directs (COD)": [
+      {
+        "Type": "MultipleChoice",
+        "Question": "Lequel de ces verbes est un verbe transitif direct (qui prend un COD sans préposition) ?",
+        "Options": "manger, parler, ressembler, sourire",
+        "Answer": "manger",
+        "FeedbackCorrect": "Correct ! On dit 'manger quelque chose'.",
+        "FeedbackIncorrect": "Faux. 'Manger' prend un objet direct (ex: manger une pomme)."
+      },
+      {
+        "Type": "FillInBlank",
+        "Question": "Nous ___ la télévision tous les soirs.",
+        "Options": "",
+        "Answer": "regardons",
+        "FeedbackCorrect": "Très bien ! 'Regarder' est un verbe transitif direct.",
+        "FeedbackIncorrect": "Incorrect. Le verbe est 'regarder' conjugué avec 'nous'."
+      },
+      {
+        "Type": "TrueFalse",
+        "Question": "Un verbe transitif direct est suivi immédiatement de son objet, sans préposition comme 'à' ou 'de'.",
+        "Options": "",
+        "Answer": "Vrai",
+        "FeedbackCorrect": "C'est exact ! Ex: Je lis un livre.",
+        "FeedbackIncorrect": "C'est faux, c'est justement la définition du transitif direct."
+      },
+      {
+        "Type": "OddOneOut",
+        "Question": "Trouvez le verbe qui N'EST PAS transitif direct :",
+        "Options": "acheter, vendre, répondre, donner",
+        "Answer": "répondre",
+        "FeedbackCorrect": "Correct ! On 'répond À quelqu'un' (transitif indirect).",
+        "FeedbackIncorrect": "Incorrect. 'Répondre' construit avec la préposition 'à'."
+      },
+      {
+        "Type": "MultipleChoice",
+        "Question": "Dans la phrase 'Elle lit ce poème', quelle est la fonction de 'ce poème' ?",
+        "Options": "COD, COI, Sujet",
+        "Answer": "COD",
+        "FeedbackCorrect": "Bravo ! C'est le Complément d'Objet Direct du verbe 'lit'.",
+        "FeedbackIncorrect": "Faux, c'est l'objet direct car il n'y a pas de préposition."
+      },
+      {
+        "Type": "FillInBlank",
+        "Question": "Ils ont ___ leur maison l'année dernière.",
+        "Options": "",
+        "Answer": "vendu",
+        "FeedbackCorrect": "Correct ! Vendre (quelque chose).",
+        "FeedbackIncorrect": "Incorrect. 'ont vendu' est transitif direct."
+      },
+      {
+        "Type": "MultipleChoice",
+        "Question": "Quel pronom remplace le COD dans : 'Je mange la pomme' ?",
+        "Options": "Je lui mange, Je la mange, Je y mange",
+        "Answer": "Je la mange",
+        "FeedbackCorrect": "Parfait ! 'la' remplace 'la pomme'.",
+        "FeedbackIncorrect": "Faux, c'est 'la'."
+      },
+      {
+        "Type": "TrueFalse",
+        "Question": "Le participe passé conjugué avec 'avoir' s'accorde avec le COD s'il est placé APRÈS le verbe.",
+        "Options": "",
+        "Answer": "Faux",
+        "FeedbackCorrect": "Exact, il s'accorde seulement s'il est mis AVANT le verbe !",
+        "FeedbackIncorrect": "Attention ! Il s'accorde uniquement si le COD le précède avant le verbe."
+      },
+      {
+        "Type": "MultipleChoice",
+        "Question": "Choisis la bonne phrase :",
+        "Options": "J'écoute à la radio, J'écoute la radio, J'écoute de la radio",
+        "Answer": "J'écoute la radio",
+        "FeedbackCorrect": "Bravo ! Écouter est transitif direct en français.",
+        "FeedbackIncorrect": "En français, 'écouter' ne prend pas de préposition."
+      },
+      {
+        "Type": "FillInBlank",
+        "Question": "Tu ___ ton temps avec ces bêtises.",
+        "Options": "",
+        "Answer": "perds",
+        "FeedbackCorrect": "Correct, 'perdre' est transitif direct.",
+        "FeedbackIncorrect": "C'est le verbe 'perdre'."
+      }
+    ],
+    "Transitifs Indirects (COI)": [
+      {
+        "Type": "MultipleChoice",
+        "Question": "Lequel de ces verbes est transitif indirect (se construit avec une préposition 'à' ou 'de') ?",
+        "Options": "parler, voir, écouter",
+        "Answer": "parler",
+        "FeedbackCorrect": "Correct ! On 'parle À quelqu'un' ou 'DE quelque chose'.",
+        "FeedbackIncorrect": "Faux. Voir et écouter sont directs. Parler nécessite une préposition."
+      },
+      {
+        "Type": "FillInBlank",
+        "Question": "Je téléphone ___ mon frère.",
+        "Options": "",
+        "Answer": "à",
+        "FeedbackCorrect": "Très bien ! Téléphoner À quelqu'un.",
+        "FeedbackIncorrect": "Il manque la préposition 'à'."
+      },
+      {
+        "Type": "TrueFalse",
+        "Question": "Un verbe transitif indirect a besoin d'une préposition pour introduire son objet.",
+        "Options": "",
+        "Answer": "Vrai",
+        "FeedbackCorrect": "C'est exact, contrairement aux verbes transitifs directs.",
+        "FeedbackIncorrect": "C'est faux, la préposition est obligatoire."
+      },
+      {
+        "Type": "OddOneOut",
+        "Question": "Choisissez le verbe qui N'EST PAS transitif indirect avec 'à' :",
+        "Options": "ressembler à, penser à, oublier, plaire à",
+        "Answer": "oublier",
+        "FeedbackCorrect": "Correct ! 'Oublier' est transitif direct (oublier quelque chose/quelqu'un).",
+        "FeedbackIncorrect": "Incorrect. Oublier est direct."
+      },
+      {
+        "Type": "MultipleChoice",
+        "Question": "Quel pronom remplace le COI dans : 'Je parle à Marie' ?",
+        "Options": "Je la parle, Je lui parle, Je le parle",
+        "Answer": "Je lui parle",
+        "FeedbackCorrect": "Bravo ! 'lui' remplace un nom de personne introduit par 'à'.",
+        "FeedbackIncorrect": "Faux, c'est 'lui'."
+      },
+      {
+        "Type": "FillInBlank",
+        "Question": "Il se souvient ___ cet événement.",
+        "Options": "",
+        "Answer": "de",
+        "FeedbackCorrect": "Correct ! Se souvenir DE quelque chose.",
+        "FeedbackIncorrect": "Se souvenir prend toujours la préposition 'de'."
+      },
+      {
+        "Type": "MultipleChoice",
+        "Question": "Quel pronom remplace le COI introduit par 'de' : 'Il parle de son voyage' ?",
+        "Options": "Il lui parle, Il en parle, Il y parle",
+        "Answer": "Il en parle",
+        "FeedbackCorrect": "Parfait ! 'en' remplace un groupe nominal introduit par 'de'.",
+        "FeedbackIncorrect": "Faux, c'est 'en'."
+      },
+      {
+        "Type": "TrueFalse",
+        "Question": "On peut utiliser le pronom 'lui' pour remplacer des objets inanimés introduits par 'à'.",
+        "Options": "",
+        "Answer": "Faux",
+        "FeedbackCorrect": "Exact ! Pour les objets inanimés on utilise 'y' (Je pense à la maison -> j'y pense).",
+        "FeedbackIncorrect": "Faux. On utilise 'y' pour les objets, 'lui' est pour les personnes isolées."
+      },
+      {
+        "Type": "MultipleChoice",
+        "Question": "Choisis la bonne phrase :",
+        "Options": "Je joue le piano, Je joue du piano",
+        "Answer": "Je joue du piano",
+        "FeedbackCorrect": "Bravo ! Jouer d'un instrument = COI avec 'de'.",
+        "FeedbackIncorrect": "Faux. Jouer d'un instrument prend 'de'."
+      },
+      {
+        "Type": "FillInBlank",
+        "Question": "Nous nous intéressons ___ ce projet.",
+        "Options": "",
+        "Answer": "à",
+        "FeedbackCorrect": "Correct, s'intéresser 'à' quelque chose.",
+        "FeedbackIncorrect": "Il manque 'à'."
+      }
+    ]
+  },
+  "La conjugaison des verbes en 'ir'": {
+    "_description": "La conjugaison des verbes en 'ir'",
+    "_intro": "<table class=\"xlsx-table intro-table\"><colgroup><col style=\"width:33.33%\"><col style=\"width:33.33%\"><col style=\"width:33.34%\"></colgroup><tbody><tr class=\"title-row\"><th>Les verbes en -ir</th><td colspan=\"2\">Apprenez à conjuguer les verbes en -ir-.</td></tr><tr class=\"blank-row\"><td colspan=\"3\">&nbsp;</td></tr><tr class=\"focus-point\"><th>Définition</th><td colspan=\"2\">Les verbes en <b>-ir</b> se séparent entre le <b>2e groupe</b> (modèle <i>finir</i>) et le <b>3e groupe</b> (modèles <i>partir, venir</i>).</td></tr><tr class=\"blank-row\"><td colspan=\"3\">&nbsp;</td></tr><tr class=\"focus-point\"><th>Règles</th><td colspan=\"2\">Pour le 2e groupe : radical + <b>-is, -is, -it, -issons, -issez, -issent</b>. Pour le 3e groupe : les terminaisons varient.</td></tr><tr class=\"blank-row\"><td colspan=\"3\">&nbsp;</td></tr><tr class=\"focus-point\"><th>Exemples</th><td colspan=\"2\">Je <b>choisis</b> mon option. Nous <b>sortons</b> du gymnase.</td></tr><tr class=\"blank-row\"><td colspan=\"3\">&nbsp;</td></tr><tr class=\"explanation\"><td></td><td><i>Explication</i></td><td><i>Exemple</i></td></tr><tr class=\"section-header\"><td colspan=\"3\">A. Le 2e groupe (Finir)</td></tr><tr class=\"explanation\"><td>Radical + <b>-issons</b> (avec nous)</td><td>C'est le cas de la majorité des verbes en -ir.</td><td>Nous <b>réussissons</b> nos examens de maturité.</td></tr><tr class=\"section-header\"><td colspan=\"3\">B. Le 3e groupe (Partir, Venir, Ouvrir)</td></tr><tr class=\"explanation\"><td>Terminaisons irrégulières</td><td>Ils sont moins nombreux mais très utilisés au quotidien.</td><td>Ils <b>viennent</b> à la cantine. Je t'<b>offre</b> un thé.</td></tr><tr class=\"blank-row\"><td colspan=\"3\">&nbsp;</td></tr><tr class=\"focus-point\"><th>Conseils</th><td colspan=\"2\">Pour savoir à quel groupe appartient un verbe, testez-le avec <b>nous</b>. Si ça se termine par <b>-issons</b>, c'est le 2e groupe !</td></tr></tbody></table>",
+    "_quizDescriptions": {
+      "Conjugaison au présent": "Maîtrisez la conjugaison des verbes du 2e groupe et les exceptions du 3e groupe au présent de l'indicatif.",
+      "Conjugaison au passé": "Testez vos connaissances sur la conjugaison des verbes en '-ir' (2e et 3e groupes) au passé composé et à l'imparfait avec des situations de la vie quotidienne."
+    },
+    "Conjugaison au présent": [
+      {
+        "Type": "MultipleChoice",
+        "Question": "Le matin, tu ___ toujours les mêmes céréales.",
+        "Options": "choisis, choisit, choissis, choisisse",
+        "Answer": "choisis",
+        "FeedbackCorrect": "Exact ! Avec 'tu', le verbe choisir (2e groupe) prend la terminaison '-is'.",
+        "FeedbackIncorrect": "Incorrect. 'Choisir' est du 2e groupe. La terminaison correcte avec 'tu' est '-is' (tu choisis)."
+      },
+      {
+        "Type": "MultipleChoice",
+        "Question": "Mes amis ___ en vacances en Italie cet été.",
+        "Options": "partent, partis, partissent, partes",
+        "Answer": "partent",
+        "FeedbackCorrect": "Bravo ! 'Partir' est un verbe du 3e groupe : ils partent.",
+        "FeedbackIncorrect": "Faux. 'Partir' est un verbe du 3e groupe (nous partons, ils partent). La forme 'partissent' n'existe pas."
+      },
+      {
+        "Type": "FillInBlank",
+        "Question": "Nous ___ nos devoirs avant de sortir en ville. (finir)",
+        "Options": "",
+        "Answer": "finissons",
+        "FeedbackCorrect": "Parfait ! 'Finir' est le modèle parfait du 2e groupe : nous finissons.",
+        "FeedbackIncorrect": "Non. Le verbe 'finir' appartient au 2e groupe, il faut donc ajouter '-issons' avec 'nous' : nous finissons."
+      },
+      {
+        "Type": "FillInBlank",
+        "Question": "Elle ___ de Genève pour étudier à Lausanne. (venir)",
+        "Options": "",
+        "Answer": "vient",
+        "FeedbackCorrect": "Bien ! 'Venir' se conjugue avec un 't' à la 3e personne du singulier : elle vient.",
+        "FeedbackIncorrect": "Faux. 'Venir' est irrégulier (3e groupe) : je viens, tu viens, il/elle vient."
+      },
+      {
+        "Type": "TrueFalse",
+        "Question": "Le verbe 'dormir' appartient au 2e groupe, on dit donc 'nous dormissons'.",
+        "Options": "Vrai, Faux",
+        "Answer": "Faux",
+        "FeedbackCorrect": "Exact, c'est faux ! On dit 'nous dormons', il appartient donc au 3e groupe.",
+        "FeedbackIncorrect": "Incorrect. Si c'était vrai, on dirait 'nous dormissons'. Or, la bonne forme est 'nous dormons' (3e groupe)."
+      },
+      {
+        "Type": "OddOneOut",
+        "Question": "Lequel de ces verbes n'appartient PAS au 2e groupe ?",
+        "Options": "grandir, rougir, sortir, réfléchir",
+        "Answer": "sortir",
+        "FeedbackCorrect": "Bravo ! On dit 'nous sortons' (3e groupe), alors que les autres verbes font bien '-issons'.",
+        "FeedbackIncorrect": "Faux. Il fallait choisir 'sortir'. On dit 'nous sortons' (3e groupe) et non 'nous sortissons'."
+      },
+      {
+        "Type": "MultipleChoice",
+        "Question": "Pendant le week-end, je ___ au moins neuf heures par nuit.",
+        "Options": "dors, dort, dormis, dorme",
+        "Answer": "dors",
+        "FeedbackCorrect": "Exact ! 'Dormir' perd sa consonne finale au singulier : je dors.",
+        "FeedbackIncorrect": "Faux. 'Dormir' (3e groupe) s'écrit avec un 's' à la première personne : je dors."
+      },
+      {
+        "Type": "FillInBlank",
+        "Question": "Vous ___ toujours vos examens avec de bonnes notes. (réussir)",
+        "Options": "",
+        "Answer": "réussissez",
+        "FeedbackCorrect": "Parfait ! 'Réussir' est un verbe du 2e groupe : vous réussissez.",
+        "FeedbackIncorrect": "Non. 'Réussir' est au 2e groupe. Avec 'vous', la terminaison est '-issez' : vous réussissez."
+      },
+      {
+        "Type": "TrueFalse",
+        "Question": "Les verbes 'ouvrir', 'offrir' et 'souffrir' se conjuguent comme des verbes du 1er groupe (-er) au présent.",
+        "Options": "Vrai, Faux",
+        "Answer": "Vrai",
+        "FeedbackCorrect": "Bravo ! Bien qu'ils finissent en -ir, on dit : j'ouvre, tu offres, il souffre.",
+        "FeedbackIncorrect": "Faux. C'est bel et bien vrai ! Malgré leur terminaison en -ir, ils font : j'ouvre, tu ouvres, il ouvre."
+      },
+      {
+        "Type": "MultipleChoice",
+        "Question": "Elles ___ leurs cahiers sur le pupitre.",
+        "Options": "tiennent, tenons, tenez, tienent",
+        "Answer": "tiennent",
+        "FeedbackCorrect": "Exact ! 'Tenir' se conjugue comme 'venir' : elles tiennent (avec deux 'n').",
+        "FeedbackIncorrect": "Incorrect. À la 3e personne du pluriel, le verbe 'tenir' prend deux 'n' : elles tiennent."
+      },
+      {
+        "Type": "FillInBlank",
+        "Question": "Il ___ la fenêtre car il fait trop chaud dans la classe. (ouvrir)",
+        "Options": "",
+        "Answer": "ouvre",
+        "FeedbackCorrect": "Parfait ! 'Ouvrir' prend exceptionnellement les terminaisons des verbes en -er : il ouvre.",
+        "FeedbackIncorrect": "Non. 'Ouvrir' est une exception du 3e groupe ; il prend la terminaison '-e' avec il/elle/on : il ouvre."
+      },
+      {
+        "Type": "OddOneOut",
+        "Question": "Quel verbe ne se conjugue PAS sur le même modèle que 'venir' au présent ?",
+        "Options": "tenir, retenir, servir, devenir",
+        "Answer": "servir",
+        "FeedbackCorrect": "Bien joué ! 'Servir' donne 'je sers', alors que les autres finissent en '-iens' (je viens, je tiens).",
+        "FeedbackIncorrect": "Incorrect. La réponse était 'servir'. On dit 'je sers' et non 'je siens'."
+      },
+      {
+        "Type": "FillInBlank",
+        "Question": "À la cantine du gymnase, on ___ d'excellents repas le midi. (servir)",
+        "Options": "",
+        "Answer": "sert",
+        "FeedbackCorrect": "Bravo ! Le pronom 'on' est à la 3e personne du singulier : on sert.",
+        "FeedbackIncorrect": "Incorrect. Le verbe 'servir' (3e groupe) conjugué avec 'il/elle/on' perd son 'v' final du radical : on sert."
+      }
+    ],
+    "Conjugaison au passé": [
+      {
+        "Type": "MultipleChoice",
+        "Question": "Hier soir, nous ___ de manger très tard.",
+        "Options": "avons fini, avons finis, sommes finis, finissons",
+        "Answer": "avons fini",
+        "FeedbackCorrect": "Bravo ! Au passé composé, le verbe 'finir' utilise l'auxiliaire avoir et le participe passé 'fini'.",
+        "FeedbackIncorrect": "Faux. Le passé composé se forme avec l'auxiliaire avoir (avons) et le participe passé 'fini' (sans 's' car le COD n'est pas placé avant)."
+      },
+      {
+        "Type": "FillInBlank",
+        "Question": "Tu ___ à quelle heure hier ? (partir - passé composé, masculin singulier)",
+        "Options": "",
+        "Answer": "es parti",
+        "FeedbackCorrect": "Exact ! 'Partir' utilise l'auxiliaire être, donc on écrit 'tu es parti'.",
+        "FeedbackIncorrect": "Incorrect. Il faut utiliser l'auxiliaire 'être' (es) et le participe passé 'parti'."
+      },
+      {
+        "Type": "TrueFalse",
+        "Question": "Le participe passé du verbe 'ouvrir' est 'ouvert'.",
+        "Options": "Vrai, Faux",
+        "Answer": "Vrai",
+        "FeedbackCorrect": "Parfait ! 'Ouvrir' est un verbe du 3e groupe irrégulier, son participe passé est bien 'ouvert'.",
+        "FeedbackIncorrect": "Faux. L'affirmation est vraie, 'ouvrir' fait 'ouvert' au participe passé (par exemple : j'ai ouvert la fenêtre)."
+      },
+      {
+        "Type": "OddOneOut",
+        "Question": "Quelle conjugaison à l'imparfait n'est PAS correcte ?",
+        "Options": "je finissais, tu dormais, il choisait, nous venions",
+        "Answer": "il choisait",
+        "FeedbackCorrect": "Bien joué ! 'Choisir' est un verbe du 2e groupe. Il faut dire 'il choisissait' avec le suffixe '-iss-'.",
+        "FeedbackIncorrect": "Faux. C'est 'il choisait' qui est incorrect. Pour le 2e groupe à l'imparfait, on ajoute '-iss-' au radical : 'il choisissait'."
+      },
+      {
+        "Type": "MultipleChoice",
+        "Question": "Quand j'étais petit, je ___ tous les jours dans le parc.",
+        "Options": "courais, courrais, courrissais, cours",
+        "Answer": "courais",
+        "FeedbackCorrect": "Exact ! 'Courir' est du 3e groupe. À l'imparfait, le radical est 'cour-' et la terminaison pour 'je' est '-ais'.",
+        "FeedbackIncorrect": "Incorrect. À l'imparfait, on prend le radical 'cour-' et on ajoute '-ais' ce qui donne 'je courais'."
+      },
+      {
+        "Type": "FillInBlank",
+        "Question": "Avant, vous ___ toujours le menu végétarien. (choisir - imparfait)",
+        "Options": "",
+        "Answer": "choisissiez",
+        "FeedbackCorrect": "Parfait ! Avec 'vous', on prend le radical du 2e groupe 'choisiss-' et on ajoute la terminaison '-iez'.",
+        "FeedbackIncorrect": "Faux. C'est un verbe du 2e groupe : il faut le radical '-iss-' et la terminaison '-iez', ce qui donne 'choisissiez'."
+      },
+      {
+        "Type": "MultipleChoice",
+        "Question": "Elles ___ au cinéma hier soir.",
+        "Options": "sont sorti, ont sorti, sont sorties, ont sorties",
+        "Answer": "sont sorties",
+        "FeedbackCorrect": "Bravo ! 'Sortir' s'emploie avec l'auxiliaire 'être' et s'accorde au féminin pluriel (-es).",
+        "FeedbackIncorrect": "Faux. Avec l'auxiliaire 'être', le participe passé s'accorde avec le sujet 'Elles' (féminin pluriel), ce qui donne 'sont sorties'."
+      },
+      {
+        "Type": "OddOneOut",
+        "Question": "Quel verbe n'utilise PAS l'auxiliaire 'être' au passé composé ?",
+        "Options": "venir, partir, sortir, finir",
+        "Answer": "finir",
+        "FeedbackCorrect": "Exact ! On dit 'j'ai fini' (auxiliaire avoir). Les autres verbes de déplacement utilisent 'être'.",
+        "FeedbackIncorrect": "Faux. 'Finir' est l'intrus car il utilise l'auxiliaire 'avoir' au passé composé (j'ai fini)."
+      },
+      {
+        "Type": "TrueFalse",
+        "Question": "Pour former l'imparfait du verbe 'réussir', on utilise le radical 'réuss-'.",
+        "Options": "Vrai, Faux",
+        "Answer": "Faux",
+        "FeedbackCorrect": "Bien vu ! On utilise la base du 'nous' au présent, donc le radical est 'réussiss-' (je réussissais).",
+        "FeedbackIncorrect": "Non, c'est faux. Comme c'est un verbe du 2e groupe, on prend la forme avec 'nous' au présent (nous réussissons) pour trouver le radical de l'imparfait : 'réussiss-'."
+      },
+      {
+        "Type": "MultipleChoice",
+        "Question": "Pour mon anniversaire, mes amis m'___ un magnifique cadeau.",
+        "Options": "ont offerts, ont offert, sont offerts, ont offris",
+        "Answer": "ont offert",
+        "FeedbackCorrect": "Exact ! 'Offrir' fait 'offert' au participe passé et utilise l'auxiliaire 'avoir' sans accord ici.",
+        "FeedbackIncorrect": "Faux. Le participe passé de 'offrir' est 'offert', utilisé avec l'auxiliaire avoir : 'ont offert'. Le 'm'' est COI, il n'y a donc pas d'accord."
+      },
+      {
+        "Type": "FillInBlank",
+        "Question": "Ma sœur ___ me voir ce week-end. (venir - passé composé)",
+        "Options": "",
+        "Answer": "est venue",
+        "FeedbackCorrect": "Bravo ! 'Venir' prend l'auxiliaire 'être' et s'accorde au féminin avec le sujet 'Ma sœur'.",
+        "FeedbackIncorrect": "Faux. Il faut utiliser l'auxiliaire être et l'accorder au féminin singulier : 'est venue'."
+      },
+      {
+        "Type": "MultipleChoice",
+        "Question": "Quand tu étais étudiant, tu ___ très peu la nuit.",
+        "Options": "dormissais, dormais, a dormi, dormait",
+        "Answer": "dormais",
+        "FeedbackCorrect": "Exact ! 'Dormir' est un verbe du 3e groupe. Le radical à l'imparfait est 'dorm-' et la terminaison est '-ais'.",
+        "FeedbackIncorrect": "Incorrect. 'Dormir' n'est pas du 2e groupe (il ne prend pas de -iss-). La bonne réponse est 'dormais'."
+      },
+      {
+        "Type": "OddOneOut",
+        "Question": "Lequel de ces participes passés n'est PAS correct ?",
+        "Options": "parti, choisi, veni, réussi",
+        "Answer": "veni",
+        "FeedbackCorrect": "Parfait ! Le participe passé du verbe venir est 'venu', et non 'veni'.",
+        "FeedbackIncorrect": "Faux. C'est 'veni' qui n'existe pas. Le participe passé correct du verbe venir est 'venu'."
+      }
+    ]
+  }
+}
