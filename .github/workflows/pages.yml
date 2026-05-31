@@ -1,19 +1,20 @@
 name: Deploy to GitHub Pages
 on:
-  push:                    
+  push:
     branches: [main]
     paths: ['data/quizzes.js']   # only redeploy when quiz data changes
-jobs:           
-  deploy:                                                         
-    runs-on: ubuntu-latest                                        
-    permissions: 
-      pages: write 
+  workflow_dispatch:             # allow manual runs from the Actions tab
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
       id-token: write
     environment:
       name: github-pages
     steps:
-      - uses: actions/checkout@v4                                 
-      - uses: actions/configure-pages@v4                          
+      - uses: actions/checkout@v4
+      - uses: actions/configure-pages@v4
       - uses: actions/upload-pages-artifact@v3
         with:
           path: '.'
